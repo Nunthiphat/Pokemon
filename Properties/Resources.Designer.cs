@@ -123,6 +123,16 @@ namespace Pokemon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ivysaur1 {
+            get {
+                object obj = ResourceManager.GetObject("Ivysaur1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MegaCharizard {
             get {
                 object obj = ResourceManager.GetObject("MegaCharizard", resourceCulture);
@@ -136,6 +146,16 @@ namespace Pokemon.Properties {
         internal static System.Drawing.Bitmap Venusaur {
             get {
                 object obj = ResourceManager.GetObject("Venusaur", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Venusaur1 {
+            get {
+                object obj = ResourceManager.GetObject("Venusaur1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

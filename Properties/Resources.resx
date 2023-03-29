@@ -124,8 +124,14 @@
   <data name="Bulbasaur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bulbasaur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MegaCharizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MegaCharizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Charizard-Mega" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Charizard-Mega.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ivysaur1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ivysaur1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Charlizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Charlizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,7 +145,7 @@
   <data name="Charmeleon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Charmeleon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MegaCharizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MegaCharizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Venusaur1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Venusaur1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

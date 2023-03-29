@@ -34,7 +34,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.tbName = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbHP = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -49,8 +49,8 @@
             this.PicBulbasaur = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tbMonsHP = new System.Windows.Forms.TextBox();
+            this.tbMonsName = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.PicCharizard)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -79,7 +79,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
+            this.button1.Text = "Gen1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -89,7 +89,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 29);
             this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
+            this.button2.Text = "Gen2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -99,7 +99,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(94, 29);
             this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
+            this.button3.Text = "Gen3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -109,7 +109,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(94, 29);
             this.button4.TabIndex = 6;
-            this.button4.Text = "button4";
+            this.button4.Text = "Gen4";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -120,12 +120,12 @@
             this.tbName.Size = new System.Drawing.Size(125, 27);
             this.tbName.TabIndex = 7;
             // 
-            // textBox2
+            // tbHP
             // 
-            this.textBox2.Location = new System.Drawing.Point(104, 270);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(125, 27);
-            this.textBox2.TabIndex = 8;
+            this.tbHP.Location = new System.Drawing.Point(104, 270);
+            this.tbHP.Name = "tbHP";
+            this.tbHP.Size = new System.Drawing.Size(125, 27);
+            this.tbHP.TabIndex = 8;
             // 
             // label1
             // 
@@ -251,7 +251,7 @@
             // 
             this.PicBulbasaur.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.PicBulbasaur.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PicBulbasaur.Image = global::Pokemon.Properties.Resources.Bulbasaur;
+            this.PicBulbasaur.Image = global::Pokemon.Properties.Resources.Venusaur1;
             this.PicBulbasaur.Location = new System.Drawing.Point(706, 26);
             this.PicBulbasaur.Name = "PicBulbasaur";
             this.PicBulbasaur.Size = new System.Drawing.Size(195, 189);
@@ -277,29 +277,29 @@
             this.label4.TabIndex = 20;
             this.label4.Text = "HP";
             // 
-            // textBox1
+            // tbMonsHP
             // 
-            this.textBox1.Location = new System.Drawing.Point(742, 270);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
-            this.textBox1.TabIndex = 19;
+            this.tbMonsHP.Location = new System.Drawing.Point(742, 270);
+            this.tbMonsHP.Name = "tbMonsHP";
+            this.tbMonsHP.Size = new System.Drawing.Size(125, 27);
+            this.tbMonsHP.TabIndex = 19;
             // 
-            // textBox3
+            // tbMonsName
             // 
-            this.textBox3.Location = new System.Drawing.Point(742, 237);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(125, 27);
-            this.textBox3.TabIndex = 18;
+            this.tbMonsName.Location = new System.Drawing.Point(742, 237);
+            this.tbMonsName.Name = "tbMonsName";
+            this.tbMonsName.Size = new System.Drawing.Size(125, 27);
+            this.tbMonsName.TabIndex = 18;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(975, 529);
+            this.ClientSize = new System.Drawing.Size(975, 507);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tbMonsHP);
+            this.Controls.Add(this.tbMonsName);
             this.Controls.Add(this.PicBulbasaur);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -309,7 +309,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbHP);
             this.Controls.Add(this.tbName);
             this.Controls.Add(this.PicCharizard);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -336,7 +336,7 @@
         private Button button3;
         private Button button4;
         private TextBox tbName;
-        private TextBox textBox2;
+        private TextBox tbHP;
         private Label label1;
         private Label label2;
         private GroupBox groupBox1;
@@ -351,7 +351,7 @@
         private PictureBox PicBulbasaur;
         private Label label3;
         private Label label4;
-        private TextBox textBox1;
-        private TextBox textBox3;
+        private TextBox tbMonsHP;
+        private TextBox tbMonsName;
     }
 }

@@ -38,5 +38,18 @@ namespace Pokemon
         {
             this.HP -= damage;
         }
+        public bool DiedPokemon(int HP)
+        {
+            bool status;
+            if (HP >= 0)
+            {
+                status = true;
+            }
+            else
+            {
+                status = false;
+            }
+            return status;
+        }
     }
 }
